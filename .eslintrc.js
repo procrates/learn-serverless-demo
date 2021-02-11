@@ -14,5 +14,8 @@ module.exports = {
   plugins: [
   ],
   // add your custom rules here
-  rules: {}
+  rules: {
+    // Indent with 4 spaces
+    "indent": ["error", 4],
+  }
 }
